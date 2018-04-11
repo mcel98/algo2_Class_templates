@@ -1,5 +1,5 @@
 #include<string>
-
+#include "Templates.hpp"
 using namespace std;
 
 // Ejercicio 1: Pasar a templates

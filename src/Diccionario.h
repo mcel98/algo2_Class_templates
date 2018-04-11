@@ -2,6 +2,7 @@
 #define __DICCIONARIO_H__
 
 #include <vector>
+using namespace std;
 
 typedef int Clave;
 typedef int Valor;
@@ -12,6 +13,7 @@ public:
 	void definir(Clave k, Valor v);
 	bool def(Clave k) const;
 	Valor obtener(Clave k) const;
+	std::vector<Clave> Diccionario<Clave,Valor>::claves() const;
 private:
 
 	struct Asociacion {
